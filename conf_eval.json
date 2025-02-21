@@ -1,50 +1,40 @@
 {
-    "sumar.cpp" : {
-        "filename": "sumar.cpp",
+    "holamundo.cpp" : {
+        "filename": "holamundo.cpp",
         "tests": [
             {
-                "expected_output": "10",
+                "expected_output": "Hola Mundo!",
                 "obtained_output": "",
                 "score": 0
             }
         ]
     },
-    "multiplicar.cpp" : {
-        "filename": "multiplicar.cpp",
+    "imprimirvalores.cpp" : {
+        "filename": "imprimirvalores.cpp",
         "tests": [
             {
-                "inputs": ["2", "2", "3", "4", "5"],
-                "expected_output": "240",
+                "expected_output": "El nombre es Juan de edad 34",
                 "obtained_output": ""
             }
         ],
         "score": 0
     },
-    "quicksort.cpp" : {
-        "filename": "quicksort.cpp",
+    "ingresarvalores.cpp" : {
+        "filename": "ingresarvalores.cpp",
         "tests": [
             {
-                "expected_output": "11 12 22 25 34 64 90 ",
+                "inputs": ["Juan", 34],
+                "expected_output": "El nombre es Juan de edad 34",
                 "obtained_output": ""
             },
             {
-                "expected_output": "11 12 22 25 34 64 0 ",
-                "obtained_output": ""
-            }
-        ],
-        "score": 0
-    },
-    "tunombrees.cpp" : {
-        "filename": "tunombrees.cpp",
-        "tests": [
-            {
-                "inputs": ["Mario"],
-                "expected_output": "Dime tu nombre\nTu nombre es: Mario\n",
+                "inputs": ["Pedro", 16],
+                "expected_output": "El nombre es Pedro de edad 16",
                 "obtained_output": ""
             },
             {
-                "inputs": ["Jua"],
-                "expected_output": "Dime tu nombre\nTu nombre es: Juan\n",
+                "inputs": ["Ana", 25],
+                "expected_output": "El nombre es Ana de edad 25",
                 "obtained_output": ""
             }
         ],
